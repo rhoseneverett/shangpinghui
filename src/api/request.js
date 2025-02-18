@@ -10,7 +10,8 @@ import store from '@/store';
 //创建axios实例[创建出来的实例即为axios，只不过可以配置一些东西]
 let request = axios.create({
     //可以给请求路径中添加一些参数 
-    baseURL: "/api",
+    // baseURL: "/api",
+    baseURL: "http://gmall-h5-api.atguigu.cn/api",
     //设置请求时间（5S）
     timeout: 5000
 });

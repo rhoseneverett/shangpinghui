@@ -2,7 +2,7 @@ import requests from './request'
 import mockRequests from './mock'
 
 export const reqCategoryList = () =>{
-  return requests({url:'product/getBaseCategoryList',method:'get'})
+  return requests({url:'/product/getBaseCategoryList',method:'get'})
 }
 
 export const reqBannerList = () => {
