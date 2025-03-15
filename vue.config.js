@@ -9,7 +9,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
          '/api': {
-              target: 'https://gmall-h5-api.atguigu.cn',
+              target: 'http://gmall-h5-api.atguigu.cn',
          },
     },
   }
